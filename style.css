@@ -1,0 +1,206 @@
+/*Basic*/
+
+body {
+  cursor: default;
+  color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 16px;
+}
+h1 {
+  font-family: "Laila";
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+/*Nav bar*/
+
+.Snav {
+  position: absolute;
+  width: 4em;
+  font-family: "Playfair Display";
+  color: #d9d9d9;
+  font-size: 5vmax;
+}
+.Snav a {
+  text-decoration: none;
+}
+
+/*Prints*/
+
+.Prints1 {
+  width: 20%;
+  height: 85%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.Prints2 {
+  width: 20%;
+  height: 85%;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  transform: rotateY(180deg);
+}
+
+/*Dogs*/
+
+.D1,
+.D2 {
+  position: absolute;
+  height: 30%
+}
+.D1 {
+  left: 25%;
+}
+.D2 {
+  right: 25%;
+}
+.PawB {
+  position: absolute;
+  height: 400px;
+  margin-left: auto;
+  left: 25%;
+  width: 50%;
+  bottom: 0;
+}
+.P {
+  text-align: center;
+}
+.F {
+  text-align: center;
+}
+
+/*Reservations Page*/
+
+.Hrs {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  bottom: 0;
+  right: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 35%;
+}
+.Date,
+.Time {
+  font-size: 20px;
+  position: absolute;
+  color: #544c4a;
+}
+.ResP {
+  position: absolute;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  right: 0;
+}
+.Spec {
+  position: relative;
+  width: 50%;
+  height: 75px;
+  left: 85px;
+}
+.S {
+  position: relative;
+  left: 80px;
+}
+.res {
+  text-align: center;
+  color: blue;
+  top: 0;
+  font-size: 50px;
+}
+
+/*Pricing Page*/
+
+.Plans {
+  position: absolute;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+.OnePlan {
+  position: absolute;
+  width: 30%;
+  text-align: center;
+}
+.FivePlan {
+  position: absolute;
+  width: 30%;
+  text-align: center;
+}
+.TwelvePlan {
+  position: absolute;
+  width: 30%;
+  text-align: center;
+}
+.TwentyPlan {
+  position: absolute;
+  width: 30%;
+  text-align: center;
+}
+.Other {
+  position: absolute;
+  width: 30%;
+  text-align: center;
+}
+.DivT {
+  border: red 3px solid;
+  border-style: double;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+}
+
+/*Contact Page*/
+
+.Contacts {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  bottom: 15px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.Twitter {
+  width: 25%;
+}
+.Facebook {
+  width: 25%;
+}
+/*Account Page*/
+
+.Login {
+  width: 50%;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 25px;
+  margin-left: auto;
+}
+.Signup {
+  width: 50%;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 25px;
+  margin-left: auto;
+}
+.Acc {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  bottom: 10%;
+  right: 25px;
+  left: auto;
+}
