@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<h1 class="Title">
+  The K9 Klub
+</h1>
+
+<div class="Snav">
+  <a href="index.html" class="A">Home</a>
+  <a href="Pricing.html" class="A">Pricing</a>
+  <a href="Reservations.html" class="A">Reserve</a>
+  <a href="Contact.html" class="A">Contact</a>
+  <a href="About.html" class="A">About</a>
+  <a href="Account.html" class="A">Account</a>
+</div>
+
+<style>
+  @media only screen and (min-width:768px) {
+    body {
+      background-image: url("")
+    }
+    h1 {
+      color: black;
+      font-size: 50px;
+    }
+    .Snav {
+      top: 100px;
+    }
+    .A {
+      color: green;
+    }
+    .Hrs {
+      font-size: 40px;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    body {
+      background-color: white;
+    }
+    h1 {
+      color: black;
+      font-size: 25px;
+    }
+    .Snav {
+      top: 50px;
+    }
+    .A {
+      color: black;
+    }
+    .Hrs {
+      font-size: 15px;
+    }
+    .ResP {
+      font-size: 15px;
+    }
+    .res {
+      display: none;
+    }
+    .D {
+      top: 25px;
+    }
+    .T {
+      top: 50px;
+    }
+  }
+</style>
+
+<h2 class="res">Pick a day for your<br> reservation!</h2>
+
+<br>
+<form class="ResP">
+  <a class="D">Date- </a>
+  <input type="Date" name="Date" class="Date"><br><br>
+  <a class="T">Time- </a><input type="Time" name="Time" class="Time"><br><br>
+  <a class="S">-Special Requirements-</a><input type="Text" name="Special Requirements" class="Spec">
+</form>
+<h2 class="Hrs">- Hours -<br>M-F:3pm-9pm<br>Saturday:12pm-6pm<br>Sunday:closed</h2>
+
+</html>
